@@ -26,6 +26,7 @@ class ListViewActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(view.root)
+
         /*
         Game score board
         - userId
