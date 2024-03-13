@@ -26,7 +26,6 @@ data class UniversityLandMark(
     val color: Float,
 )
 
-
 class GoogleMapActivity : AppCompatActivity() {
     private val view: ActivityGoogleMapBinding by lazy {
         ActivityGoogleMapBinding.inflate(
@@ -34,7 +33,7 @@ class GoogleMapActivity : AppCompatActivity() {
         )
     }
 
-    //    private val viewModel: GPSViewModel by viewModels()
+    // private val viewModel: GPSViewModel by viewModels()
     // late initialize variable
     private lateinit var map: GoogleMap
 
