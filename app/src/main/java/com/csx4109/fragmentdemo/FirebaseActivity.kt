@@ -24,7 +24,7 @@ class FirebaseActivity : AppCompatActivity() {
 
         val database = Firebase.database("https://fragmentdemo-e9834-default-rtdb.asia-southeast1.firebasedatabase.app/")
         val messageRef = database.getReference("message")
-        val studentRef = database.getReference("stundets").child("1")
+        val studentRef = database.getReference("students").child("1")
 
         messageRef.setValue("Now it's ${LocalDateTime.now()}")
         messageRef.addValueEventListener(object: ValueEventListener {
