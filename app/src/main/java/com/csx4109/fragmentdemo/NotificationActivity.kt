@@ -27,9 +27,10 @@ class NotificationActivity : AppCompatActivity() {
         PermissionHandler.requestPermissionIfRequired(this, PermissionHandler.NOTIFICATION)
 
         view.btnTriggerNoti.setOnClickListener {
-            
+
             // create 2 notifications
             // 1. normal
+            
             val normalNotification =
                 NotificationCompat.Builder(this, AppNotificationChannels.NORMAL.id).apply {
                     setSmallIcon(R.drawable.baseline_home_24)
