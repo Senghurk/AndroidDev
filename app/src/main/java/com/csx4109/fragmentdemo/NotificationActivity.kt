@@ -30,7 +30,7 @@ class NotificationActivity : AppCompatActivity() {
 
             // create 2 notifications
             // 1. normal
-            
+
             val normalNotification =
                 NotificationCompat.Builder(this, AppNotificationChannels.NORMAL.id).apply {
                     setSmallIcon(R.drawable.baseline_home_24)
@@ -39,6 +39,7 @@ class NotificationActivity : AppCompatActivity() {
                 }.build()
 
             // 2. urgent - when click -> go to university list page
+            
             val pendingIntent = TaskStackBuilder.create(this).run {
                 val intent = Intent(this@NotificationActivity, UniversityListActivity::class.java)
                 addNextIntentWithParentStack(intent)
