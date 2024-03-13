@@ -34,7 +34,6 @@ class ListViewActivity : AppCompatActivity() {
         - score
         - isUser
 
-
         1. Assign data to item
         2. Assign item to listView
          */
