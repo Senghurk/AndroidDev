@@ -39,7 +39,7 @@ class NotificationActivity : AppCompatActivity() {
                 }.build()
 
             // 2. urgent - when click -> go to university list page
-            
+
             val pendingIntent = TaskStackBuilder.create(this).run {
                 val intent = Intent(this@NotificationActivity, UniversityListActivity::class.java)
                 addNextIntentWithParentStack(intent)

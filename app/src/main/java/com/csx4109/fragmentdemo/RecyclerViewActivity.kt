@@ -40,6 +40,7 @@ class RecyclerViewActivity : AppCompatActivity() {
         view.rvScoreBoard.addItemDecoration(divider)
         view.rvScoreBoard.adapter = RecyclerViewAdapter(this, userScores)
         view.rvScoreBoard.layoutManager = LinearLayoutManager(this)
+        
 //        view.rvScoreBoard.layoutManager = LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, true)
 //        view.rvScoreBoard.layoutManager = GridLayoutManager(this, 4)
     }
