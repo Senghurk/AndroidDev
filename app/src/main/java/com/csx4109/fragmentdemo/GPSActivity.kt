@@ -18,6 +18,7 @@ class GPSActivity : AppCompatActivity() {
 
         // Check for app's permission
         // If we have permission, do nothing. But if not, ask user for permission
+        
         PermissionHandler.requestPermissionIfRequired(this, PermissionHandler.GPS)
 
         // Click btn, get user location and update ui
