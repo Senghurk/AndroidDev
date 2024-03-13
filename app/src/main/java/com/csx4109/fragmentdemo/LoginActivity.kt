@@ -10,7 +10,6 @@ import com.csx4109.fragmentdemo.models.UserInfo
 
 class LoginActivity : AppCompatActivity() {
     private val view: ActivityLoginBinding by lazy { ActivityLoginBinding.inflate(layoutInflater) }
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(view.root)
