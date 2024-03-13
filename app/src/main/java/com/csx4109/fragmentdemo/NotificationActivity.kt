@@ -27,6 +27,7 @@ class NotificationActivity : AppCompatActivity() {
         PermissionHandler.requestPermissionIfRequired(this, PermissionHandler.NOTIFICATION)
 
         view.btnTriggerNoti.setOnClickListener {
+            
             // create 2 notifications
             // 1. normal
             val normalNotification =
