@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "20885618822",
+    "project_id": "fragmentdemo-e9834",
+    "storage_bucket": "fragmentdemo-e9834.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:20885618822:android:9c4f1ef3f110d82a249107",
+        "android_client_info": {
+          "package_name": "com.csx4109.fragmentdemo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZP5Bu8y29ro5rSqwwPJOeZU0URJqZKkQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
