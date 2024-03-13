@@ -35,8 +35,6 @@ class ButtomNavigationActivity : AppCompatActivity() {
             .replace(R.id.fcExample, fragment)
             .addToBackStack(fragment::class.java.name)
             .commit()
-
-
         return true
     }
 }
