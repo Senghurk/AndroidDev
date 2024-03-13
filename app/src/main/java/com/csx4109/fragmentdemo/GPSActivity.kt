@@ -15,6 +15,7 @@ class GPSActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(view.root)
+        
         // Check for app's permission
         // If we have permission, do nothing. But if not, ask user for permission
         PermissionHandler.requestPermissionIfRequired(this, PermissionHandler.GPS)
