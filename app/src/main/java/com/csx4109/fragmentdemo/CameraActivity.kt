@@ -34,6 +34,7 @@ class CameraActivity : AppCompatActivity() {
         cameraController.setEnabledUseCases(
             CameraController.IMAGE_CAPTURE or CameraController.VIDEO_CAPTURE
         )
+        
 //        if (cameraController.hasCamera(CameraSelector.DEFAULT_FRONT_CAMERA)) {
 //            cameraController.cameraSelector = CameraSelector.DEFAULT_FRONT_CAMERA
 //        }
