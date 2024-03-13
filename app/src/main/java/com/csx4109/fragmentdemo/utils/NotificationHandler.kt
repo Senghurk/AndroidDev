@@ -14,6 +14,7 @@ enum class AppNotificationChannels(val id: String, val notiName: String, val imp
 
 object NotificationHandler {
     fun initNotificationChannel(context: Context) {
+        
         // chanel for noti is only available for android 8 or later
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
             val manager = context.getSystemService(Context.NOTIFICATION_SERVICE) as NotificationManager
